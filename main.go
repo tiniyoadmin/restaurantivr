@@ -241,9 +241,9 @@ func main() {
 		}
 		resp.Dial = &Dial{
 			Timeout:  "30",
-			CallerId: "913366236661",
+			CallerId: "XXXXXXXXXXXX",
 			Number: &Number{
-				Text: "+919903333376",
+				Text: "XXXXXXXXXXXX",
 			},
 			Action: "https://tiniyo.dev/TiniyoApplications/ReceptionIVRCB",
 		}
@@ -264,9 +264,9 @@ func main() {
 			u.DialCallStatus == "canceled" {
 			resp.Dial = &Dial{
 				Timeout:  "45",
-				CallerId: "913366236661",
+				CallerId: "XXXXXXXXXXXX",
 				Number: &Number{
-					Text: "+919614478482",
+					Text: "XXXXXXXXXXXX",
 				},
 				Action: "https://tiniyo.dev/TiniyoApplications/ReceptionIVRCB2",
 			}
@@ -316,10 +316,10 @@ func main() {
 		}
 		resp.Dial = &Dial{
 			Timeout:  "25",
-			CallerId: "913366236660",
+			CallerId: "XXXXXXXXXXXX",
 			RingTone: "https://tiniyo.s3-ap-southeast-1.amazonaws.com/public/KolkataMixtapeWelcome.mp3",
 			Number: &Number{
-				Text: "+919967609476",
+				Text: "XXXXXXXXXXXX",
 			},
 			Action: "https://tiniyo.dev/TiniyoApplications/KolkataMixtapeCB",
 		}
@@ -340,9 +340,9 @@ func main() {
 			u.DialCallStatus == "canceled" {
 			resp.Dial = &Dial{
 				Timeout:  "45",
-				CallerId: "913366236660",
+				CallerId: "XXXXXXXXXXXX",
 				Number: &Number{
-					Text: "+917976055614",
+					Text: "XXXXXXXXXXXX",
 				},
 			}
 		}
